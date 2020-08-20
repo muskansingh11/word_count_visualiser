@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+   
+</head>
+<body>
+    <h1 class="text-center text-white bg-dark">WORD COUNT VISUALISER</h1>
+    <br>
+    <div id="wrap">
+        <textarea cols="100" row="25" id="inp_text"></textarea>
+        <button id="btn_calc" class="btn btn-secondary btn-lg active">Calculate</button>
+
+    </div>
+   
+    <br>
+    <div id="wor"></div>
+    <table border = "1" cellpadding="2"id="sorted" class="table table-bordered table-dark"></table>
+    <canvas id="myChart" width="600" height="600"></canvas>
+    <script src="script.js"></script>
+    
+</body>
+</html>
